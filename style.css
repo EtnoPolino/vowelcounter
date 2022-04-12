@@ -1,0 +1,43 @@
+:root{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.12);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1,
+.check{
+    align-self: center;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
